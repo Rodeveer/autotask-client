@@ -19,6 +19,7 @@ class CountryEntity extends DataTransferObject
     public ?bool $isDefaultCountry;
     public ?string $name;
     public ?int $quoteTemplateID;
+    public ?int $purchaseOrderTemplateID;
     /** @var \Anteris\Autotask\Support\UserDefinedFields\UserDefinedFieldEntity[]|null */
     public ?array $userDefinedFields;
 
